@@ -8,6 +8,9 @@
 /* Styling sections */
 .header {
   margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 body {
@@ -15,6 +18,14 @@ body {
   color: #fafaf9;
   font-family: "Sono", sans-serif;
   padding: 40px;
+}
+
+/* Styling logo */
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
 }
 
 /* Styling fact form */
@@ -30,6 +41,9 @@ h1 {
   text-transform: uppercase;
   text-align: center;
   font-family: "Coiny", sans-serif;
+  line-height: 1;
+  margin-top: 6px;
+  margin-left: 20px;
 }
 
 .fact {
