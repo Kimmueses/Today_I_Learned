@@ -17,7 +17,7 @@ body {
   background-color: #292524;
   color: #fafaf9;
   font-family: "Sono", sans-serif;
-  padding: 40px;
+  padding: 48px 64px;
 }
 
 /* Styling layout */
@@ -27,12 +27,22 @@ body {
   gap: 48px;
 }
 
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
 /* Styling logo */
 .logo {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 16px;
+}
+
+.logo img {
+  height: 68px;
+  width: 68px;
 }
 
 /* Styling fact form */
